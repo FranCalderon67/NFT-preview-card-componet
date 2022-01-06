@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(217, 54%, 11%);
+}
+
+p,
+path,
+svg {
+  background-color: hsl(216, 50%, 16%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 35%;
+  border-radius: 2rem;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: -10px 10px black;
+}
+
+.card_image {
+  width: 250px;
+  height: 250px;
+  margin: 2rem 0 0 13.5%;
+  border-radius: 1rem;
+}
+
+.card_title {
+  color: white;
+  margin: 2rem 0 0 0.5rem;
+  text-align: start;
+  background-color: hsl(216, 50%, 16%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+.card_text {
+  color: white;
+  margin: 2rem 0 1rem 0.5rem;
+  font-size: 18px;
+  background-color: hsl(216, 50%, 16%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+
+.card_eth {
+  color: hsl(178, 100%, 50%);
+  background-color: hsl(216, 50%, 16%);
+  margin: 0 0 0 0.5rem;
+}
+
+.card_time {
+  color: white;
+  background-color: hsl(216, 50%, 16%);
+  margin: 0 0 0 8rem;
+}
+
+.card_footer {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 1rem 0 1rem;
+  background-color: hsl(216, 50%, 16%);
+  border-top: solid 0.1px hsl(215, 32%, 27%);
+}
+
+.card_footer__text {
+  margin: 2rem 0 0 0.5rem;
+  color: white;
+  background-color: hsl(216, 50%, 16%);
+  font-family: "Outfit", sans-serif;
+}
+
+.card_footer__image {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 1rem 0 0 0.5rem;
+}
+
+.card_footer__name {
+  background-color: hsl(216, 50%, 16%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+@media (max-width: 425px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 575px;
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+  .card_image {
+    margin: 2rem 0 0 11.5%;
+  }
+}
